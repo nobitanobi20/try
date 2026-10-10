@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<style>
+fieldset {
+    border: 2px solid #000;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #13d3d7f7;
+}
+</style>
+
+<body>
+    <fieldset>
+        <legend>Student Information</legend>
+   
+<h1>Student Information Form</h1>
+
+<form>
+
+    <label>First Name:</label>
+    <input type="text" name="fname">
+    <br><br>
+
+    <label>Last Name:</label>
+    <input type="text" name="lname">
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email">
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password" name="password">
+    <br><br>
+
+    <label>Phone:</label>
+    <input type="tel" name="phone">
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <br><br>
+
+    <label>Course:</label>
+    <select name="course">
+        <option>Select Course</option>
+        <option>B.Tech[cs]</option>
+        <option>BCA</option>
+        <option>B.Sc</option>
+        <option>B.Tech[It]</option>
+        <option>Msc</option>
+        <option>M.Tech</option>
+        <option>phd</option>
+        <option>M.A</option>
+        <option>M.Com</option>
+    </select>
+    <br><br>
+
+    <label>Hobbies:</label>
+    <input type="checkbox"> Coding
+    <input type="checkbox"> Sports
+    <input type="checkbox"> Reading
+    <br><br>
+
+    <label>Address:</label>
+    <br>
+    <textarea rows="4" cols="30"></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+ </fieldset>
+
+</body>
+</html>
